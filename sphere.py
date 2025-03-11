@@ -22,7 +22,7 @@ class polyhedron():
      
              self.Hexhedron = 8 * [Edges]
     
-             self.Octahedron = 3 * math.sqrt(25 + 10 * math.sqrt(5)) * [Edges]
+             self.Octahedron = 4 * math.sqrt(3) * [Edges]
     
              self.Dodecahedron = 3 * math.sqrt(25 + 10 * math.sqrt(5)) * [Edges]
     
