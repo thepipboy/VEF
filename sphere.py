@@ -18,15 +18,15 @@ class polyhedron():
     
     def __init__Surface(Tetrahedron,Hexhedron,Octhedron,Dodecahedron,Icosahedron): 
              this.Edges = 1
-             self.Tetrahedron = math.sqrt(3) * [Edges]**2
+             self.Tetrahedron = 8 * math.sqrt(3) / 3 * [Edges]
      
-             self.Hexhedron = 6 * [Edges]**2
+             self.Hexhedron = 8 * [Edges]
     
-             self.Octahedron = 2 * math.sqrt(3) * [Edges]**2
+             self.Octahedron = 3 * math.sqrt(25 + 10 * math.sqrt(5)) * [Edges]
     
-             self.Dodecahedron = 3 * math.sqrt(25 + 10 * math.sqrt(5)) * [Edges]**2
+             self.Dodecahedron = 3 * math.sqrt(25 + 10 * math.sqrt(5)) * [Edges]
     
-             self.Icosahedron = 5 * math.sqrt(3) * [Edges]**2
+             self.Icosahedron = 30 * math.sqrt(3) - 10 * math.sqrt(15) * [Edges]
 
     return Surface
         
