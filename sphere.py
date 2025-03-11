@@ -26,7 +26,7 @@ class polyhedron():
     
              self.Dodecahedron = 3 * math.sqrt(25 + 10 * math.sqrt(5)) * [Edges]
     
-             self.Icosahedron = 30 * math.sqrt(3) - 10 * math.sqrt(15) * [Edges]
+             self.Icosahedron = [30 * math.sqrt(3) - 10 * math.sqrt(15)] * [Edges]
 
     return Surface
         
