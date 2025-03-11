@@ -9,10 +9,10 @@ def Hexadecimal():
     e = "00001111"
     f = "00010000"  
 class polyhedron():
-    def __init__polyhedron(Vertex,Edges,faces):
+    def __init__polyhedron(Vertex,Edges,Faces):
         self.Vertex = [V]
         self.Edges = [E]
-        self.faces = [F]
+        self.Faces = [F]
         this.Edges = this.Radius
         return V - E + F == 2
     
