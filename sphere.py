@@ -56,7 +56,7 @@ class sphere(Surface,Volume):
             a * sinh(x + t7) + b * cosh(x - t7) + c * sinh(y + t8) + d * cosh(y - t8) + e * sinh(z + t9) + f * cosh(z - t9), #t789
             a * tan(x + t10) + b * atan(x - t10) + c * tan(y + t11) + d * atan(y - t11) + e * tan(z + t12) + f * atan(z - t12) #t101112
         ]   
-   def loop(x,y,z):
+    def loop(x,y,z):
         for x in range(2*2*2*2):
         for y in range(2*2*2*2):
         for z in range(2*2*2*2):
