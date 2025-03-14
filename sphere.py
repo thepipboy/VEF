@@ -8,7 +8,7 @@ def Hexadecimal():
     d = "00001110"
     e = "00001111"
     f = "00010000"  
-class polyhedron():
+class polyhedron(Surface,Volume):
     def __init__polyhedron(Vertex,Edges,Faces):
         self.Vertex = [V]
         self.Edges = [E]
@@ -44,7 +44,7 @@ class polyhedron():
     
     return Volume
     
-class sphere(Surface,Volume):
+class sphere():
     def space(X,Y,Z,Radius,theta,fai):
          this.X = Radius * math.cos(theta)
          this.Y = Radius * math.sin(fai)
