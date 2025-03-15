@@ -16,7 +16,7 @@ class polyhedron(Surface,Volume):
         this.Edges = this.Radius
         return V - E + F == 2
     
-    def __init__Surface(Tetrahedron,Hexhedron,Octhedron,Dodecahedron,Icosahedron): 
+    def Surface(Tetrahedron,Hexhedron,Octhedron,Dodecahedron,Icosahedron): 
              this.Edges = 1
              Tetrahedron = 8 * math.sqrt(3) / 3 * [Edges]
      
@@ -27,10 +27,8 @@ class polyhedron(Surface,Volume):
              Dodecahedron = 3 * math.sqrt(25 + 10 * math.sqrt(5)) * [Edges]
     
              Icosahedron = [30 * math.sqrt(3) - 10 * math.sqrt(15)] * [Edges]
-
-             return Surface
         
-    def __init__Volume(Tetrahedron,Hexhedron,Octhedron,Dodecahedron,Icosahedron):
+    def Volume(Tetrahedron,Hexhedron,Octhedron,Dodecahedron,Icosahedron):
              this.Radius = 1
              Tetrahedron = 8 * math.sqrt(3) * [Radius]/27
 
@@ -41,7 +39,5 @@ class polyhedron(Surface,Volume):
              Dodecahedron = [15 + 7 * math.sqrt(5)]/4 * [Radius]
 
              Tetrahedron = math.sqrt[25 + 10 * math.sqrt(5)]/4 * [Radius]
-    
-             return Volume
 
         
