@@ -1,13 +1,13 @@
 import math
-class sphere():
+class spacetime():
     def space(X,Y,Z,Radius,theta,fai):
-         this.X = Radius * cos(theta)
-         this.Y = Radius * sin(fai)
-         this.Z = Radius * cos(theta) * cos(fai)
+        this.X = Radius * cos(theta)
+        this.Y = Radius * sin(fai)
+        this.Z = Radius * cos(theta) * cos(fai)
     def time(x,y,z,t):
         return [
-            a * sin(x + t) + b * cos(x - t) + c * sin(y + t) + d * cos(y - t) + e * sin(z + t) + f * cos(z - t),       #t123
-            a * asin(x + t) + b * acos(x - t) + c * asin(y + t) + d * acos(y - t) + e * asin(z + t) + f * acos(z - t), #t456
-            a * sinh(x + t) + b * cosh(x - t) + c * sinh(y + t) + d * cosh(y - t) + e * sinh(z + t) + f * cosh(z - t), #t789
-            a * tan(x + t) + b * atan(x - t) + c * tan(y + t) + d * atan(y - t) + e * tan(z + t) + f * atan(z - t) #t101112
+            a * sin(x + n) + b * cos(x - n) + c * sin(y + n) + d * cos(y - n) + e * sin(z + n) + f * cos(z - n),       
+            a * asin(x + n) + b * acos(x - n) + c * asin(y + n) + d * acos(y - n) + e * asin(z + n) + f * acos(z - n), 
+            a * sinh(x + n) + b * cosh(x - n) + c * sinh(y + n) + d * cosh(y - n) + e * sinh(z + n) + f * cosh(z - n), 
+            a *nan(x + n) + b * atan(x - n) + c *nan(y + n) + d * atan(y - n) + e *nan(z + n) + f * atan(z - n) 
         ]   
